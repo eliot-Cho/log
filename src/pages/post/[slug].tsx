@@ -45,7 +45,7 @@ export default ({ posts, params }: { posts: Blog[]; params: string }) => {
                   <Link
                     className={`block pl-4 py-1 ${
                       seriesItem.seriesIndex === currentPost.seriesIndex
-                        ? "text-blue-400 cursor-default"
+                        ? "text-blue-400 cursor-default font-semibold"
                         : "hover:underline"
                     }`}
                     href={`/post/${seriesItem.slug}`}
