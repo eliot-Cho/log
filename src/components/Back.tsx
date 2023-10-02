@@ -5,7 +5,7 @@ export const Back = () => {
   const router = useRouter();
   return (
     <a
-      onClick={() => router.push("/")}
+      onClick={() => router.push("/post")}
       className="flex items-center gap-2 text-lg cursor-pointer mt-11 hover:opacity-60"
     >
       <Svg.Arrow />
